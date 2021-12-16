@@ -154,12 +154,12 @@ namespace EZView
 
         private void imageBox1_MouseUp(object sender, MouseEventArgs e)
         {
-            if (e.Button == MouseButtons.Right)
+            /*if (e.Button == MouseButtons.Right)
                 this.Next(1);
             if (e.Button == MouseButtons.XButton1)
                 this.Next(-1);
             if (e.Button == MouseButtons.XButton2)
-                this.Next(1);
+                this.Next(1); */
         }
 
         private void imageBox1_MouseMove(object sender, MouseEventArgs e)
